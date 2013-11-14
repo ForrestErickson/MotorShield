@@ -34,7 +34,7 @@ Stepper myStepper(stepsPerRevolution, 8,11,12,13);
  
 void setup() {
   // set the speed at 60 rpm:
-  myStepper.setSpeed(60);
+  myStepper.setSpeed(180);
   // initialize the serial port:
   Serial.begin(9600);
   pinMode(9,OUTPUT);
